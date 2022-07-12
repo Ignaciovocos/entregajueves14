@@ -1,0 +1,19 @@
+
+@mixin animacion1 ($margin-bottom,$justify-content,$flex-wrap,$row-gap,$column-gap) {
+    
+    margin-bottom:$margin-bottom;
+    justify-content:$justify-content;
+    flex-wrap:$flex-wrap;
+    row-gap:$row-gap;
+    column-gap:$column-gap;
+
+
+}
+
+%alineacion {
+    text-align:center;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+

@@ -1,0 +1,29 @@
+
+
+.caja {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25PX;
+    }
+
+.caja-img {
+    
+    width: 20%;
+    height: 20%;
+    margin-bottom: 35px;
+    border-radius: 80px;
+    }
+
+.caja-img:hover {
+    filter: sepia(60%);
+}
+
+h4 {
+    @extend %alineacion;
+    font-size: 25px;
+}
+
+h5 {
+    @extend %alineacion;
+    font-size: 28px;
+}
